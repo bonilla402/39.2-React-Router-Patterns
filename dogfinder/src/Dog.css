@@ -1,0 +1,78 @@
+﻿/* src/Dog.css */
+
+.dog-card {
+    background-color: #ffebf0; /* Soft pastel pink */
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 2rem;
+    max-width: 600px;
+    text-align: center;
+    margin: 2rem auto;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+}
+
+.dog-name {
+    color: #ff91a4; /* Pastel rose color */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Flexbox layout for image and facts */
+.dog-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.dog-photo {
+    width: 50%; /* Adjust width to fit layout */
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.dog-facts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left; /* Align text to the left side */
+    flex: 1; /* Allow facts to take remaining space */
+}
+
+.dog-facts li {
+    background-color: #ffe4b2; /* Light pastel yellow */
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 1rem;
+}
+
+.dog-not-found {
+    color: #ff91a4;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.go-back-button {
+    display: inline-block;
+    background-color: #ff91a4; /* Pastel rose color */
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.go-back-button:hover {
+    background-color: #ff6f91; /* Slightly darker pink on hover */
+}

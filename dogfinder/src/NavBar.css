@@ -1,0 +1,73 @@
+﻿/* src/NavBar.css */
+
+.navbar {
+    background-color: #ffebf0; /* Soft pastel pink */
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.navbar h2 {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    background-color: #ff91a4; /* Pastel rose background for logo */
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font for a cute touch */
+    border-radius: 15px;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Soft shadow to make it pop */
+    margin-right: 1.5rem; /* Added space between logo and first link */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0;
+}
+
+.navbar a {
+    color: #73c2fb; /* Light pastel blue */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.3rem 0.5rem;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    color: #fff;
+    background-color: #b4e7f8; /* Light pastel blue hover effect */
+}
+
+/* Style specifically for active NavLink */
+.navbar a.active-link {
+    background-color: #ff91a4; /* Pastel rose background for active link */
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.3rem 0.5rem;
+}
+
+.navbar .all-dogs-link {
+    margin-left: auto;
+    padding: 0.5rem 1rem;
+    background-color: #ffe4b2; /* Soft pastel yellow */
+    color: #333;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .all-dogs-link:hover {
+    background-color: #ffdab9; /* Light pastel peach for hover */
+    color: #fff;
+}

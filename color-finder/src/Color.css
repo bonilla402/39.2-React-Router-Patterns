@@ -1,0 +1,34 @@
+﻿/* Color.css */
+.color-page {
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: brightness(0.85) saturate(1.2);
+}
+
+.color-page h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.color-page h2 {
+    margin-top: 10px;
+}
+
+.go-back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #3c91e6;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}

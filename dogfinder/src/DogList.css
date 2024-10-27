@@ -1,0 +1,59 @@
+﻿/* src/DogList.css */
+
+.dog-list-container {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dog-list-title {
+    font-size: 2.5rem;
+    color: #ff91a4; /* Pastel rose color */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.dog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 0 2rem;
+    max-width: 1000px; /* Limits the grid width on large screens */
+    width: 100%;
+    justify-content: center; /* Centers the grid within the container */
+}
+
+.dog-link {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+}
+
+.dog-card {
+    background-color: #ffebf0; /* Soft pastel pink */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.dog-card:hover {
+    transform: scale(1.05);
+}
+
+.dog-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.dog-card h3 {
+    color: #ff91a4; /* Pastel rose color */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    font-size: 1.2rem;
+}
